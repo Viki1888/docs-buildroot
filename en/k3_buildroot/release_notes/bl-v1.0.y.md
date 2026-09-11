@@ -4,6 +4,23 @@ sidebar_position: 1
 
 # Buildroot 1.0
 
+## v1.0.7 Release Notes
+
+Release Date: 2026-08-26
+
+### Major Updates
+
+- Added support for RISC-V64 hardware cryptographic acceleration
+- Added support for reading K3 chip ID
+- Fixed PCIe link training failure during wake-up recovery
+- Fixed MIPI DSI panel not switching to DSI function (default routed to DP/eDP causing display anomalies)
+- Fixed duplicate EDID mode removal issue
+- Fixed UFS spacemit mixed read/write serialization
+- Fixed fastboot oem_read truncation issue at offsets >4GB
+- Fixed DDR reg_base mask boundary validation
+- Fixed USB hub port reset recovery delay (added TRSTRCY)
+- Optimized K3 OPP table to use efuse calibration values for thermal temperature reference
+
 ## v1.0.5 Release Notes
 
 Release Date: 2026-07-23
