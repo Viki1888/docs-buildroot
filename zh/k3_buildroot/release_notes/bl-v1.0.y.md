@@ -4,6 +4,20 @@ sidebar_position: 1
 
 # Buildroot 1.0
 
+## v1.0.8 更新说明
+
+发布日期：2026-09-16
+
+### 主要更新
+
+- 支持 FM25LQ128I3 spi-nor flash
+- 支持 imx219 摄像头 spacemit,dt-filter
+- 支持 esos 编译 debian 包功能
+- 修复 K3 Pico-itx 风扇控制稳定性
+- 修复 usb hub 端口复位后增加 TRSTRCY 恢复延迟
+- 修复 SPL 阶段 P1 non-volatile 寄存器值恒为 0xf0 的问题
+- 修复 pcie k3 deinit 函数
+
 ## v1.0.7 更新说明
 
 发布日期：2026-08-26
