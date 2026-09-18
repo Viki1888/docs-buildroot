@@ -4,6 +4,21 @@ sidebar_position: 1
 
 # Buildroot 1.0
 
+## v1.0.9 更新说明
+
+发布日期：2026-09-18
+
+### 主要更新
+
+- 支持 K3 安全固件（OP-TEE）构建
+- 支持 ROS 相关的 HID sensor 配置
+- 支持 Xbox 手柄
+- 支持 LPDDR5 与 LPDDR4X 可选编译
+- 修复 C3 预热以避免 CPU 时钟 FC 超时问题
+- 修复 ccu_mix.c 潜在的 Load address misaligned 异常问题
+- 调整 opensbi/esos/u-boot debian打包方式
+- 优化 bootloader 启动速度
+
 ## v1.0.8 更新说明
 
 发布日期：2026-09-16
